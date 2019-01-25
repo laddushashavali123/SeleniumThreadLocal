@@ -14,7 +14,9 @@ public class DriverModule extends AbstractModule {
     private static final String CHROMEDRIVER_SYSTEM_PROPERTY =
             "webdriver.chrome.driver";
 
-    /** Configure method. It binds a selected type of BrowserDriver. */
+    /**
+     * Configure method. It binds a selected type of BrowserDriver.
+     */
     protected synchronized void configure() {
 
         // Set Chromedriver executable path.
@@ -30,10 +32,10 @@ public class DriverModule extends AbstractModule {
 
     public static String getChromedriverPath() {
         if (SystemUtils.IS_OS_WINDOWS) {
-          return System.getProperty("user.dir")
-                  + "/src/main/java/com//examples/drivers/executable/chromedriver" ;
+            return System.getProperty("user.dir")
+                    + "\\src\\main\\java\\com\\examples\\drivers\\executable\\chromedriver.exe";
         }
         return System.getProperty("user.dir")
-                + "/examples/drivers/executable/chromedriver";
+                + "\\src\\main\\java\\com\\examples\\drivers\\executable\\chromedriver.exe";
     }
 }
