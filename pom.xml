@@ -21,7 +21,7 @@
                     <version>2.22.1</version>
                     <configuration>
                         <suiteXmlFiles>
-                            <suiteXmlFile>default_tests.xml</suiteXmlFile>
+                            <suiteXmlFile>testSuite.xml</suiteXmlFile>
                         </suiteXmlFiles>
                         <argLine>
                             -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
