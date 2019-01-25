@@ -1,4 +1,4 @@
-package com.github.automatedowl.examples;
+package com.tests;
 
 import org.testng.annotations.Test;
 

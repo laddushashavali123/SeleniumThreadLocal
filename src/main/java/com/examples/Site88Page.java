@@ -1,4 +1,4 @@
-package com.github.automatedowl.examples;
+package com.examples;
 
 import java.util.List;
 import org.openqa.selenium.By;

@@ -1,4 +1,4 @@
-package com.github.automatedowl.examples.drivers;
+package com.examples.drivers;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;

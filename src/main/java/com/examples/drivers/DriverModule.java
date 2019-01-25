@@ -1,4 +1,4 @@
-package com.github.automatedowl.examples.drivers;
+package com.examples.drivers;
 
 import com.google.inject.AbstractModule;
 import org.apache.tika.utils.SystemUtils;
@@ -31,11 +31,9 @@ public class DriverModule extends AbstractModule {
     public static String getChromedriverPath() {
         if (SystemUtils.IS_OS_WINDOWS) {
           return System.getProperty("user.dir")
-                  + "/src/main/java/com/github/automatedowl" +
-                  "/examples/drivers/executable/chromedriver.exe";
+                  + "/src/main/java/com//examples/drivers/executable/chromedriver" ;
         }
         return System.getProperty("user.dir")
-                + "/src/main/java/com/github/automatedowl" +
-                "/examples/drivers/executable/chromedriver";
+                + "/examples/drivers/executable/chromedriver";
     }
 }

@@ -1,7 +1,9 @@
-package com.github.automatedowl.examples;
+package com.tests;
 
 import java.util.logging.Logger;
-import com.github.automatedowl.examples.drivers.ThreadLocalDriver;
+
+import com.examples.Site88Page;
+import com.examples.drivers.ThreadLocalDriver;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;

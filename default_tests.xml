@@ -3,7 +3,7 @@
 <suite name="Suite">
     <test name="Test" time-out="3600000" parallel="classes" thread-count="1">
         <classes>
-            <class name="com.github.automatedowl.examples.WebHostTest"/>
+            <class name="com.tests.WebHostTest"/>
         </classes>
     </test>
 </suite>
