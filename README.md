@@ -9,7 +9,7 @@ mvn test
 
 To run on Linux, make the chromedriver file executable by running the following command from root project dir:
 ```
-chmod +x src/main/java/com/github/automatedowl/examples/drivers/executable/chromedriver
+chmod +x src/main/java/com/examples/drivers/executable/chromedriver
 ```
 
 Then in order to run the test:
